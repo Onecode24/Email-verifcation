@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .middle{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 25px;
+    }
+    header{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 25px;
+
+    }
+    body{
+        text-align: center;
+        font-family: franklin;
+        padding-top: 50px;
+    }
+    input{
+        width: 300px;
+        height: 30px;
+        border-radius: 100px;
+        padding-left: 25px;
+        border: 1px hsl(223, 100%, 88%) solid;
+    }
+    input:focus-visible{
+        outline: none;
+    }
+    button{
+        font-size: 13px;
+        width: 105px;
+        height: 30px;
+        border-radius: 100px;
+        border: none;
+        background-color: blue;
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        width: 105px;
+    }
+    hd{
+        font-weight: 10;
+        color: hsl(0, 0%, 59%);
+    }
+    h1{
+        font-weight: 700;
+    }
+    @font-face {
+        font-family: franklin;
+        src: url(Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
+    }
+    p{
+        font-size: 12px;
+    }
+    header  p{
+        font-size: 20px;
+    }
+    .email{
+        display: flex;
+        margin-left: 25%;
+        text-align: center;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+    @media (max-width:805px) {
+        .email{
+            display: grid;
+        }
+        button{
+            width: 40%;
+            margin-left: 30%;
+        }
+    }
